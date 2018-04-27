@@ -1,0 +1,42 @@
+.keyboard{
+    width: 700px;
+    margin: 0 auto;
+}
+.keyboard .row{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.keyboard .key{
+    width: 40px;
+    height: 40px;
+    float: left;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 3px;
+    text-align: center;
+    line-height: 40px;
+    background: #333333;
+    font-size: 120%;
+    border-radius: 5px;
+
+
+}
+.keyboard .key:hover{
+    background: #8c8c8c;
+}
+.keyboard .backspace{
+    width: 40px;
+}
+.keyboard .tab{
+    width: 60px;
+}
+.keyboard .enter{
+    width: 60px;
+}
+.keyboard .capslock{
+    width: 80px;
+}
+.keyboard .space{
+    width: 300px;
+}
